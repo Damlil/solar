@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#0C164D, #190B22);
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    margin-top: 2rem;
+    margin-right: 4rem;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.solsystemet {
+    margin-bottom: 0;
+    font-size: 60px
+}
+
+.solaris {
+    display: flex;
+    color: gold;
+    margin-bottom: 1rem;
+    font-size: 24px;
+    letter-spacing: 0.6em;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    justify-content: flex-end
+}
+
+article {
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: 'Secular One', sans-serif;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: gold;
+    margin-bottom: 1rem;
+    font-size: 24px;
+    letter-spacing: 0.6em;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 170%;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: white;
+    letter-spacing: 0.09em;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+}
+
+.baseContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-3 p {
+    height: 60px;
+    overflow: auto;
+}
+
+h5 {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 1rem;
+}
+
+.row-3 p {
+    letter-spacing: 0.2rem;
+}
+
+footer {
+    margin-bottom: 1rem;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+aside:nth-child(1) {
+    background-color: #ffd129c8;
+    border: 5px solid rgb(251, 255, 0);
+    border-radius: 100%;
+    position: absolute;
+    height: 800px;
+    width: 300px;
+    left: -260px;
+    box-shadow: 2px 15px 30px #d6ea3d;
+}
+
+aside:nth-child(1):hover {
+    background-color: #ffd129c8;
+    border: 5px solid rgb(251, 255, 0);
+    border-radius: 100%;
+    position: absolute;
+    height: 800px;
+    width: 300px;
+    left: -260px;
+    box-shadow: 2px 15px 50px #d6ea3d;
+}
+
+aside:nth-child(2) {
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    background-color: #888888;
+}
+
+aside:nth-child(2):hover {
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    background-color: #888888;
+    box-shadow: 1px 1px 30px #E7CDCD;
+}
+
+aside:nth-child(3) {
+    border-radius: 100%;
+    height: 26px;
+    width: 26px;
+    background-color: #E7CDCD
+}
+
+aside:nth-child(3):hover {
+    border-radius: 100%;
+    height: 26px;
+    width: 26px;
+    background-color: #E7CDCD;
+    box-shadow: 1px 1px 30px #E7CDCD;
+}
+
+aside:nth-child(4) {
+    border-radius: 100%;
+    height: 28px;
+    width: 28px;
+    background-color: #428ED4;
+}
+
+aside:nth-child(4):hover {
+    border-radius: 100%;
+    height: 28px;
+    width: 28px;
+    background-color: #428ED4;
+    box-shadow: 1px 1px 30px #428ED4;
+}
+
+aside:nth-child(5) {
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    background-color: #EF5F5F;
+}
+
+aside:nth-child(5):hover {
+    border-radius: 100%;
+    height: 14px;
+    width: 14px;
+    background-color: #EF5F5F;
+    box-shadow: 1px 1px 30px #EF5F5F;
+}
+
+aside:nth-child(6) {
+    border-radius: 100%;
+    height: 188px;
+    width: 188px;
+    background-color: #E29468;
+}
+
+aside:nth-child(6):hover {
+    border-radius: 100%;
+    height: 188px;
+    width: 188px;
+    background-color: #E29468;
+    box-shadow: 1px 1px 30px #E29468;
+}
+
+aside:nth-child(7) {
+    border-radius: 100%;
+    height: 144px;
+    width: 144px;
+    background-color: #C7AA72;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+}
+
+aside:nth-child(7):hover {
+    border-radius: 100%;
+    height: 144px;
+    width: 144px;
+    background-color: #C7AA72;
+    box-shadow: 1px 1px 30px #C7AA72;
+}
+
+aside:nth-child(8) {
+    border-radius: 100%;
+    height: 66px;
+    width: 66px;
+    background-color: #C9D4F1;
+}
+
+aside:nth-child(8):hover {
+    border-radius: 100%;
+    height: 66px;
+    width: 66px;
+    background-color: #C9D4F1;
+    box-shadow: 1px 1px 30px #C9D4F1;
+}
+
+aside:nth-child(9) {
+    border-radius: 100%;
+    height: 66px;
+    width: 66px;
+    background-color: #7A91A7;
+}
+
+aside:nth-child(9):hover {
+    border-radius: 100%;
+    height: 66px;
+    width: 66px;
+    background-color: #7A91A7;
+    box-shadow: 1px 1px 30px #7A91A7;
+}
+
+h6:nth-child(1) {
+    background-color: #428ED4;
+    border-radius: 100%;
+    position: absolute;
+    height: 800px;
+    width: 300px;
+    left: -250px;
+    box-shadow: 2px 15px 30px#428ED4;
+    top: 15%
+}
+
+h6:nth-child(2) {
+    background-color: #428ED4;
+    border-radius: 100%;
+    position: absolute;
+    height: 800px;
+    width: 300px;
+    left: -220px;
+    box-shadow: 2px 15px 30px#428ED4;
+    top: 15%;
+    opacity: 0.3;
+}
+
+h6:nth-child(3) {
+    background-color: #428ED4;
+    border-radius: 100%;
+    position: absolute;
+    height: 800px;
+    width: 300px;
+    left: -190px;
+    box-shadow: 5px 15px 30px#428ED4;
+    top: 15%;
+    opacity: 0.2;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 60px;
+    transform: rotate(20deg);
+    width: 60px;
+    margin-bottom: 1rem;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    color: gold;
+    font-size: 60px;
+    transform: rotate(50deg);
+    width: 60px;
+    margin-bottom: 1rem;
+}
+
+.rings {
+    color: #ffffff;
+    width: 218px;
+    height: 5.5px;
+    background: rgba(255, 255, 255, 0.4);
+    transform: rotate(-30deg);
+    width: 200px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0px;
+    }
+
+    header {
+        display: flex;
+    }
+
+    .solsystemet {
+        font-size: 40px;
+        align-items: center;
+        justify-content: center
+    }
+
+}
